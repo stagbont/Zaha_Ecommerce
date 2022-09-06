@@ -636,6 +636,16 @@ margin-top: 160px;
   margin-top: 10px;
 }
 
+@media screen and (max-width:450px) {
+  .hero-banner-image{
+    display: none;
+  }
+
+  .footer-banner-image{
+    display: none;
+  }
+}
+
 @media screen and (max-width:800px) {
   .hero-banner-container{
     height: 560px;

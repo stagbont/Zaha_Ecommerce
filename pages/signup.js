@@ -17,22 +17,22 @@ const Signout = () => {
             <div className='inputfield'> 
               <div className='inputs'>
                 <label>Email</label>
-                <input type="email" name="email" placeholder="email" />
+                <input type="email" name="email" placeholder="email" required/>
               </div>
 
               <div className='inputs'>
                 <label>Username or Email</label>
-                <input type="text" name="username" placeholder="username" />
+                <input type="text" name="username" placeholder="username" required/>
               </div>
 
               <div className='inputs'>
                 <label>Password</label>
-                <input type="password" name="password" placeholder="password" />
+                <input type="password" name="password" placeholder="password" required/>
               </div>
 
               <div className='inputs'>
                 <label>Repeat Password</label>
-                <input type="password" name="r-password" placeholder="r-password" />
+                <input type="password" name="r-password" placeholder="repeat password" required/>
               </div>
             </div>
 
